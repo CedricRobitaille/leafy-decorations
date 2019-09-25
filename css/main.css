@@ -3,11 +3,16 @@ html {
 }
 
 .masthead {
-
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-color: #588477;
+  background-image: url("../images/leaf-bg.svg");
+  background-repeat: repeat;
 }
 
 .logo {
   text-align: center;
+  color: #fff;
 }
 
 .nav {
@@ -16,18 +21,37 @@ html {
 
 .nav a {
   text-decoration: none;
+  color: rgba(16, 52, 41, .8);
+  color: #fff;
+  background-color: #467366;
+  border: 3px solid #2d5a4d;
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-position: .75em;
+  background-size: 48px auto;
+  background-repeat: no-repeat;
 }
 
 .banner {
-
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .5)), url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  border-bottom: 3px solid #467366;
 }
 
 .banner-content {
-
+  padding-top: 300px;
+  color: #fff;
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-position: 10px 180px;
 }
 
 @media only screen and (min-width: 60em) {
